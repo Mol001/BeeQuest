@@ -3,10 +3,12 @@ import pygame
 import os.path
 
 
-SPRITES = [pygame.image.load('images/flower_3.jpg'), pygame.image.load('images/flower_3.jpg'),
-           pygame.image.load('images/wall2.jpg'), pygame.image.load('images/grass_4.jpg'),
-           pygame.image.load('images/bee_forward.jpg'), pygame.image.load('images/bee_back.jpg'),
-           pygame.image.load('images/bee_right.jpg'), pygame.image.load('images/bee_left.jpg')]
+SPRITES = [pygame.image.load('images/game_images/flower_3.jpg'), pygame.image.load('images/game_images/flower_3.jpg'),
+           pygame.image.load('images/game_images/wall2.jpg'), pygame.image.load('images/game_images/grass_4.jpg'),
+           pygame.image.load('images/game_images/bee_forward.jpg'),
+           pygame.image.load('images/game_images/bee_back.jpg'),
+           pygame.image.load('images/game_images/bee_right.jpg'), 
+           pygame.image.load('images/game_images/bee_left.jpg')]
 WINDOW = 1
 NEXT_LEVEL = 1
 FLAG = False
